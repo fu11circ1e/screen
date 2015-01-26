@@ -1,6 +1,9 @@
 #Commands used to start and exit screen
 
 screen	-S	[session name]			Will start screen with the session name you desire.
-screen	-ls					List currently running screen sessions, detatched or attached
-screen	-d	[session name]			Detatch a screen session
-screen 	-r	[session name]			Re-attatch a screen session (may need detatched before hand) 
+screen	-ls					List currently running screen sessions, detached or attached
+screen	-d	[session name]			Detach a screen session
+screen 	-r	[session name]			Re-attach a screen session (may need detached before hand) 
+screen 	-dr					detach then re-attach a screen session (a session name can be given)
+screen 	-t	[window name] [command]		Start screen, name the window and run a command
+screen 	-S	[session name] -t [window name] [command] 	Start screen with a session name, a window name and run a command 
