@@ -1,0 +1,5 @@
+#Commands to use when inside a screen session.
+#The escape character as it is called is CTRL and "a" pressed at the same time CTRL-A 
+
+CTRL-A + ?	Will list help 
+CTRL-A + 0-9	Switch to given number, eg. CTRL-A + 1
