@@ -9,9 +9,12 @@ CTRL-a + |	Split window vertically
 CTRL-a + p	Move to previous window
 CTRL-a + n	Move to next window
 CTRL-a + CTRL-a	Cycle through windows
+CTRL-a + "	List all windows
+CTRL-a + A	Reamane current window
+CTRL-a + ESC	Enter copy mode
+CTRL-a + ]	Paste contents of buffer
+CTRL-a + k	Kill the current window
+CTRL-a + d	Detach the current screen session
+CTRL-a + X	Remove current active window   
+CTRL-a + Q	Remove all aother windows apart from active one
 
-<<<<<<< HEAD
-=======
-CTRL-A + ?	Will list help 
-CTRL-A + 0-9	Switch to given window number, eg. CTRL-A + 1
->>>>>>> 7f07b438639bf884be0521da33786ad8b64f42d7
