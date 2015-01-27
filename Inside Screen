@@ -1,5 +1,12 @@
 #Commands to use when inside a screen session.
-#The escape character as it is called is CTRL and "a" pressed at the same time CTRL-A 
+#The escape character as it is called is CTRL and "a" pressed at the same time CTRL-a 
 
-CTRL-A + ?	Will list help 
-CTRL-A + 0-9	Switch to given number, eg. CTRL-A + 1
+CTRL-a + ?	Will list help 
+CTRL-a + 0-9	Switch to given number, eg. CTRL-a + 1
+CTRL-a + c	Create a new window with a shell.
+CTRL-a + S	Split window horizontally
+CTRL-a + |	Split window vertically
+CTRL-a + p	Move to previous window
+CTRL-a + n	Move to next window
+CTRL-a + CTRL-a	Cycle through windows
+
