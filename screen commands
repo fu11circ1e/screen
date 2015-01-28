@@ -1,0 +1,22 @@
+####commands to use within screen####
+#This is a list of some useful commands to use within screen
+
+CTRL-a + : 	To enter into command mode (a colon will appear at the bottom left corner)
+
+password		Change or password protect screen session
+password none		Will switch password checking off
+copy			Enter copy mode 
+displays		List currently opened / active user interfaces
+fit			Change window size to fit current disply size
+info 			Display window settings
+kill			Kill the current window
+lastmsg			Display the last message
+next 			Switch to the next window
+number [n]		Go to [n] window
+paste			Paste contents of paste buffer
+quit 			Kill all windows and quit
+resize [+/- lines] 	Resize the current window
+sessionname		Name current screen session
+time			Display the time and load average
+wall [message]		Disaplay a message on all displays
+width [ col [lines]] 	Set the width of window
