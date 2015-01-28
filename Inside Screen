@@ -17,4 +17,8 @@ CTRL-a + k	Kill the current window
 CTRL-a + d	Detach the current screen session
 CTRL-a + X	Remove current active window   
 CTRL-a + Q	Remove all aother windows apart from active one
-
+CTRL-a + c	Clear the screen window.(same as clear on bash prompt)
+CTRL-a + i	Show info about the current window
+CTRL-a + N	Show current window number and title
+CTRL-a + t	Show the load average for the system
+CTRL-a + *	SHows a list of attached displays
